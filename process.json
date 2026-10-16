@@ -2,12 +2,12 @@
       "name"        : "worker",
       "script"      : "./index.js",
       "instances"   : 1,
-      "merge_logs"  : true,
+      "merge_logs"  : false,
       "log_date_format" : "YYYY-MM-DD HH:mm Z",
-      "watch": true,
+      "watch": false,
       "watch_options": {
-        "followSymlinks": true,
-        "usePolling"   : true,
+        "followSymlinks": false,
+        "usePolling"   : false,
         "interval"    : 5
       }
     }
